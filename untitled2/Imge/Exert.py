@@ -4,7 +4,7 @@ import os
 import time
 
 from PIL import Image
-from Imge.common import imShr
+from Imge.Function import imShr
 from flask import Flask, jsonify, request
 from flask import send_from_directory, abort
 from werkzeug.utils import secure_filename
